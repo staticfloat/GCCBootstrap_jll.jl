@@ -1,0 +1,715 @@
+name = "GCCBootstrap"
+version = "1.0.1"
+julia_compat = "1.7"
+platform_augmentation_code = ""
+
+[[builds]]
+deps = []
+name = "GCCBootstrap"
+lazy = "false"
+src_version = "9.4.0"
+platform = "x86_64-linux-gnu"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:b608c2b8d75ac89d907c7a64de3af962cd3748e0"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:4e3c444583eeb0a902aebe27819f8d396f528fa0b7ae339ad55f9aafb197e229"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v1.0.1-GCCBoostrap/GCCBootstrap-build_log-v1.0.1-x86_64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:dc1b3f5840ea48d373c6dcb54adbd8d3be6f8e09"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:99529f0175ef57ffc51a0a1838bb359b4830646fcca0622e5526448bff97692c"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v1.0.1-GCCBoostrap/GCCBootstrap-extract_log-v1.0.1-x86_64-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-strip"
+    [[builds.products]]
+    name = "cc"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-cc"
+    [[builds.products]]
+    name = "gcc"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-gcc"
+    [[builds.products]]
+    name = "cpp"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-cpp"
+    [[builds.products]]
+    name = "gxx"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-g++"
+    [[builds.products]]
+    name = "gcc"
+    type = "executable"
+    path = "bin/x86_64-linux-gnu-gcc"
+
+    [[builds.sources]]
+    treehash = "sha1:a343d19b96bf8beffbe65b0e79af0f05b3d45b41"
+    url = "http://mirrors.kernel.org/gnu/gcc/gcc-9.4.0/gcc-9.4.0.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:72953b5d6cb3d19c4a5a61ea28d98f1aff3f95b5"
+    url = "https://mirrors.kernel.org/gnu/mpfr/mpfr-4.1.0.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b4c64266f805d57e5bdd29be5176068561a129d2"
+    url = "https://mirrors.kernel.org/gnu/mpc/mpc-1.2.1.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:c44caf29f0c03471636c31182c93219a6a401f9b"
+    url = "https://gcc.gnu.org/pub/gcc/infrastructure/isl-0.24.tar.bz2"
+    [[builds.sources]]
+    treehash = "sha1:7fddd9cb81504331d0a4c4335309cc3139651285"
+    url = "https://mirrors.kernel.org/gnu/gmp/gmp-6.2.1.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b3ebf8f2902314fef18c02872ca2e4791537b4c6"
+    url = "http://mirrors.kernel.org/pub/linux/kernel/v4.x/linux-4.1.49.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:1a1e061943a1d90ee93a107872d0c2459363af00"
+    url = "https://mirrors.kernel.org/gnu/glibc/glibc-2.17.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:3f9625da23e93e58273ff0a70e1886b69ef59149"
+    url = "https://mirrors.kernel.org/gnu/glibc/glibc-2.19.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:9b04f4fc4e433a892ea88ea0946a24b4dd62aab5"
+    url = "https://musl.libc.org/releases/musl-1.2.2.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:a14bf4e883fd391a9024a5ac95d26e1c2cf6896f"
+    url = "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v9.0.0.tar.bz2"
+    [[builds.sources]]
+    treehash = "sha1:4df1cf58fc97c06667a26b81a94314710378e36b"
+    url = "https://github.com/madler/zlib/archive/refs/tags/v1.2.12.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:c56d13ea81e7d05c6e156d30faa11a56bf0253c7"
+    url = "http://mirrors.kernel.org/gnu/ncurses/ncurses-6.2.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:e8509616bf01a9399edf16924ca83fbf2c9b89ef"
+    url = "http://mirrors.kernel.org/gnu/libiconv/libiconv-1.16.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:b1b4a65144718b239fce820744f2c18faef8768a"
+    url = "http://mirrors.kernel.org/gnu/gettext/gettext-0.21.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:71da3d4f918be291a3ad12b9596d3274d9faf55d"
+    url = "http://mirrors.kernel.org/gnu/binutils/binutils-2.29.1.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b53abfc3b024418e8fb0c21b0a19b2cb4f088029"
+    url = "http://mirrors.kernel.org/gnu/binutils/binutils-2.38.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b66d485c7922635d450b49674dac396b67f899b4"
+    url = "/home/sabae/src/BB2/bootstrap/GCCBootstrap/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:e726c51d5dace87683883b6b880b7b4bd21434a7"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:5cb32b20456d3e4368fb9edb460fcf688244f581af7f154473d766887cd56c48"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v1.0.1-GCCBoostrap/GCCBootstrap-v1.0.1-x86_64-linux-gnu.tar.gz"
+[[builds]]
+deps = []
+name = "GCCBootstrap"
+lazy = "false"
+src_version = "9.4.0"
+platform = "i686-linux-gnu"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:b5e23cdd53d91fa0c11e6fb95bc47dd00c526e17"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:1253c073963165970e9fc6da17531ecb3afd714e7f399bff20cd4375a38c3d87"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v1.0.1-GCCBoostrap/GCCBootstrap-build_log-v1.0.1-i686-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:62fcfdcc7661636cc1641cc9209de30989991f8e"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:50293353f3295fc846ec89e912497cbb80e484c9e964307bd894d4d4eb71d416"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v1.0.1-GCCBoostrap/GCCBootstrap-extract_log-v1.0.1-i686-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/i686-linux-gnu-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/i686-linux-gnu-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/i686-linux-gnu-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/i686-linux-gnu-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/i686-linux-gnu-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/i686-linux-gnu-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/i686-linux-gnu-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/i686-linux-gnu-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/i686-linux-gnu-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/i686-linux-gnu-strip"
+    [[builds.products]]
+    name = "cc"
+    type = "executable"
+    path = "bin/i686-linux-gnu-cc"
+    [[builds.products]]
+    name = "gcc"
+    type = "executable"
+    path = "bin/i686-linux-gnu-gcc"
+    [[builds.products]]
+    name = "cpp"
+    type = "executable"
+    path = "bin/i686-linux-gnu-cpp"
+    [[builds.products]]
+    name = "gxx"
+    type = "executable"
+    path = "bin/i686-linux-gnu-g++"
+    [[builds.products]]
+    name = "gcc"
+    type = "executable"
+    path = "bin/i686-linux-gnu-gcc"
+
+    [[builds.sources]]
+    treehash = "sha1:a343d19b96bf8beffbe65b0e79af0f05b3d45b41"
+    url = "http://mirrors.kernel.org/gnu/gcc/gcc-9.4.0/gcc-9.4.0.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:72953b5d6cb3d19c4a5a61ea28d98f1aff3f95b5"
+    url = "https://mirrors.kernel.org/gnu/mpfr/mpfr-4.1.0.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b4c64266f805d57e5bdd29be5176068561a129d2"
+    url = "https://mirrors.kernel.org/gnu/mpc/mpc-1.2.1.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:c44caf29f0c03471636c31182c93219a6a401f9b"
+    url = "https://gcc.gnu.org/pub/gcc/infrastructure/isl-0.24.tar.bz2"
+    [[builds.sources]]
+    treehash = "sha1:7fddd9cb81504331d0a4c4335309cc3139651285"
+    url = "https://mirrors.kernel.org/gnu/gmp/gmp-6.2.1.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b3ebf8f2902314fef18c02872ca2e4791537b4c6"
+    url = "http://mirrors.kernel.org/pub/linux/kernel/v4.x/linux-4.1.49.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:1a1e061943a1d90ee93a107872d0c2459363af00"
+    url = "https://mirrors.kernel.org/gnu/glibc/glibc-2.17.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:3f9625da23e93e58273ff0a70e1886b69ef59149"
+    url = "https://mirrors.kernel.org/gnu/glibc/glibc-2.19.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:9b04f4fc4e433a892ea88ea0946a24b4dd62aab5"
+    url = "https://musl.libc.org/releases/musl-1.2.2.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:a14bf4e883fd391a9024a5ac95d26e1c2cf6896f"
+    url = "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v9.0.0.tar.bz2"
+    [[builds.sources]]
+    treehash = "sha1:4df1cf58fc97c06667a26b81a94314710378e36b"
+    url = "https://github.com/madler/zlib/archive/refs/tags/v1.2.12.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:c56d13ea81e7d05c6e156d30faa11a56bf0253c7"
+    url = "http://mirrors.kernel.org/gnu/ncurses/ncurses-6.2.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:e8509616bf01a9399edf16924ca83fbf2c9b89ef"
+    url = "http://mirrors.kernel.org/gnu/libiconv/libiconv-1.16.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:b1b4a65144718b239fce820744f2c18faef8768a"
+    url = "http://mirrors.kernel.org/gnu/gettext/gettext-0.21.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:71da3d4f918be291a3ad12b9596d3274d9faf55d"
+    url = "http://mirrors.kernel.org/gnu/binutils/binutils-2.29.1.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b53abfc3b024418e8fb0c21b0a19b2cb4f088029"
+    url = "http://mirrors.kernel.org/gnu/binutils/binutils-2.38.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b66d485c7922635d450b49674dac396b67f899b4"
+    url = "/home/sabae/src/BB2/bootstrap/GCCBootstrap/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:79086b098bb1080f6cf35463241eddd761a39860"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:834a53946669e67c4b134fd346659b50ad3f54ffa59fbf32de914cc427ed1bc7"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v1.0.1-GCCBoostrap/GCCBootstrap-v1.0.1-i686-linux-gnu.tar.gz"
+[[builds]]
+deps = []
+name = "GCCBootstrap"
+lazy = "false"
+src_version = "9.4.0"
+platform = "aarch64-linux-gnu"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:49cff691dd17a24a7824e25b005440856f383b6d"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:aa4b78a4c2522d4adf51f65bf875439de4bc5102a69011df081bcb9db66f9083"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v1.0.1-GCCBoostrap/GCCBootstrap-build_log-v1.0.1-aarch64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:344db9ca2c8c6eedb05889a0ae16609bba75cbe3"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:c8ab339edcbd25316fba5b16f0b3d5d9eeac91961ef161ec51990eff7e4f29c3"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v1.0.1-GCCBoostrap/GCCBootstrap-extract_log-v1.0.1-aarch64-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-strip"
+    [[builds.products]]
+    name = "cc"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-cc"
+    [[builds.products]]
+    name = "gcc"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-gcc"
+    [[builds.products]]
+    name = "cpp"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-cpp"
+    [[builds.products]]
+    name = "gxx"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-g++"
+    [[builds.products]]
+    name = "gcc"
+    type = "executable"
+    path = "bin/aarch64-linux-gnu-gcc"
+
+    [[builds.sources]]
+    treehash = "sha1:a343d19b96bf8beffbe65b0e79af0f05b3d45b41"
+    url = "http://mirrors.kernel.org/gnu/gcc/gcc-9.4.0/gcc-9.4.0.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:72953b5d6cb3d19c4a5a61ea28d98f1aff3f95b5"
+    url = "https://mirrors.kernel.org/gnu/mpfr/mpfr-4.1.0.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b4c64266f805d57e5bdd29be5176068561a129d2"
+    url = "https://mirrors.kernel.org/gnu/mpc/mpc-1.2.1.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:c44caf29f0c03471636c31182c93219a6a401f9b"
+    url = "https://gcc.gnu.org/pub/gcc/infrastructure/isl-0.24.tar.bz2"
+    [[builds.sources]]
+    treehash = "sha1:7fddd9cb81504331d0a4c4335309cc3139651285"
+    url = "https://mirrors.kernel.org/gnu/gmp/gmp-6.2.1.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b3ebf8f2902314fef18c02872ca2e4791537b4c6"
+    url = "http://mirrors.kernel.org/pub/linux/kernel/v4.x/linux-4.1.49.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:1a1e061943a1d90ee93a107872d0c2459363af00"
+    url = "https://mirrors.kernel.org/gnu/glibc/glibc-2.17.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:3f9625da23e93e58273ff0a70e1886b69ef59149"
+    url = "https://mirrors.kernel.org/gnu/glibc/glibc-2.19.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:9b04f4fc4e433a892ea88ea0946a24b4dd62aab5"
+    url = "https://musl.libc.org/releases/musl-1.2.2.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:a14bf4e883fd391a9024a5ac95d26e1c2cf6896f"
+    url = "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v9.0.0.tar.bz2"
+    [[builds.sources]]
+    treehash = "sha1:4df1cf58fc97c06667a26b81a94314710378e36b"
+    url = "https://github.com/madler/zlib/archive/refs/tags/v1.2.12.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:c56d13ea81e7d05c6e156d30faa11a56bf0253c7"
+    url = "http://mirrors.kernel.org/gnu/ncurses/ncurses-6.2.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:e8509616bf01a9399edf16924ca83fbf2c9b89ef"
+    url = "http://mirrors.kernel.org/gnu/libiconv/libiconv-1.16.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:b1b4a65144718b239fce820744f2c18faef8768a"
+    url = "http://mirrors.kernel.org/gnu/gettext/gettext-0.21.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:71da3d4f918be291a3ad12b9596d3274d9faf55d"
+    url = "http://mirrors.kernel.org/gnu/binutils/binutils-2.29.1.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b53abfc3b024418e8fb0c21b0a19b2cb4f088029"
+    url = "http://mirrors.kernel.org/gnu/binutils/binutils-2.38.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b66d485c7922635d450b49674dac396b67f899b4"
+    url = "/home/sabae/src/BB2/bootstrap/GCCBootstrap/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:e062eebce4b878e4dff709ec7982603ef86c5ae6"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:96bdfe0fd4c8ec1458e0d400c0e23b913a5a938fa6564e9124d27619311938a3"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v1.0.1-GCCBoostrap/GCCBootstrap-v1.0.1-aarch64-linux-gnu.tar.gz"
+[[builds]]
+deps = []
+name = "GCCBootstrap"
+lazy = "false"
+src_version = "9.4.0"
+platform = "armv7l-linux-gnueabihf"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:59195163f3ce976672b3889e04f686c3ac4d0c80"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:6a4a304f84536ea2c058bd061ca2108a4b926aa8934fcebd3fb984687afb56d7"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v1.0.1-GCCBoostrap/GCCBootstrap-build_log-v1.0.1-armv7l-linux-gnueabihf.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:dfe428b4d6e8c892f6f8e559ec8fc37bb185c627"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:0dd39671b19991ff09f2c7bce8922e128bdfd5ca63ba1ceedfbadd8467a2c626"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v1.0.1-GCCBoostrap/GCCBootstrap-extract_log-v1.0.1-armv7l-linux-gnueabihf.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/arm-linux-gnueabihf-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/arm-linux-gnueabihf-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/arm-linux-gnueabihf-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/arm-linux-gnueabihf-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/arm-linux-gnueabihf-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/arm-linux-gnueabihf-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/arm-linux-gnueabihf-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/arm-linux-gnueabihf-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/arm-linux-gnueabihf-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/arm-linux-gnueabihf-strip"
+    [[builds.products]]
+    name = "cc"
+    type = "executable"
+    path = "bin/arm-linux-gnueabihf-cc"
+    [[builds.products]]
+    name = "gcc"
+    type = "executable"
+    path = "bin/arm-linux-gnueabihf-gcc"
+    [[builds.products]]
+    name = "cpp"
+    type = "executable"
+    path = "bin/arm-linux-gnueabihf-cpp"
+    [[builds.products]]
+    name = "gxx"
+    type = "executable"
+    path = "bin/arm-linux-gnueabihf-g++"
+    [[builds.products]]
+    name = "gcc"
+    type = "executable"
+    path = "bin/arm-linux-gnueabihf-gcc"
+
+    [[builds.sources]]
+    treehash = "sha1:a343d19b96bf8beffbe65b0e79af0f05b3d45b41"
+    url = "http://mirrors.kernel.org/gnu/gcc/gcc-9.4.0/gcc-9.4.0.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:72953b5d6cb3d19c4a5a61ea28d98f1aff3f95b5"
+    url = "https://mirrors.kernel.org/gnu/mpfr/mpfr-4.1.0.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b4c64266f805d57e5bdd29be5176068561a129d2"
+    url = "https://mirrors.kernel.org/gnu/mpc/mpc-1.2.1.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:c44caf29f0c03471636c31182c93219a6a401f9b"
+    url = "https://gcc.gnu.org/pub/gcc/infrastructure/isl-0.24.tar.bz2"
+    [[builds.sources]]
+    treehash = "sha1:7fddd9cb81504331d0a4c4335309cc3139651285"
+    url = "https://mirrors.kernel.org/gnu/gmp/gmp-6.2.1.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b3ebf8f2902314fef18c02872ca2e4791537b4c6"
+    url = "http://mirrors.kernel.org/pub/linux/kernel/v4.x/linux-4.1.49.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:1a1e061943a1d90ee93a107872d0c2459363af00"
+    url = "https://mirrors.kernel.org/gnu/glibc/glibc-2.17.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:3f9625da23e93e58273ff0a70e1886b69ef59149"
+    url = "https://mirrors.kernel.org/gnu/glibc/glibc-2.19.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:9b04f4fc4e433a892ea88ea0946a24b4dd62aab5"
+    url = "https://musl.libc.org/releases/musl-1.2.2.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:a14bf4e883fd391a9024a5ac95d26e1c2cf6896f"
+    url = "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v9.0.0.tar.bz2"
+    [[builds.sources]]
+    treehash = "sha1:4df1cf58fc97c06667a26b81a94314710378e36b"
+    url = "https://github.com/madler/zlib/archive/refs/tags/v1.2.12.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:c56d13ea81e7d05c6e156d30faa11a56bf0253c7"
+    url = "http://mirrors.kernel.org/gnu/ncurses/ncurses-6.2.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:e8509616bf01a9399edf16924ca83fbf2c9b89ef"
+    url = "http://mirrors.kernel.org/gnu/libiconv/libiconv-1.16.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:b1b4a65144718b239fce820744f2c18faef8768a"
+    url = "http://mirrors.kernel.org/gnu/gettext/gettext-0.21.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:71da3d4f918be291a3ad12b9596d3274d9faf55d"
+    url = "http://mirrors.kernel.org/gnu/binutils/binutils-2.29.1.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b53abfc3b024418e8fb0c21b0a19b2cb4f088029"
+    url = "http://mirrors.kernel.org/gnu/binutils/binutils-2.38.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b66d485c7922635d450b49674dac396b67f899b4"
+    url = "/home/sabae/src/BB2/bootstrap/GCCBootstrap/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:bba39c5007709216924f6b58d4b36d096f730ce9"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:3c29dded18159bd4a5e311cc0a9f3bdadf6edab6228a3ecfe7dddcf647ab1d86"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v1.0.1-GCCBoostrap/GCCBootstrap-v1.0.1-armv7l-linux-gnueabihf.tar.gz"
+[[builds]]
+deps = []
+name = "GCCBootstrap"
+lazy = "false"
+src_version = "9.4.0"
+platform = "powerpc64le-linux-gnu"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:941d15233f1963cae4d973b9d6c63adc317ac4ae"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:dc7e4e69dfcbf8eb073ee4818e64ea26b110de316034ad48987725098f7e446d"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v1.0.1-GCCBoostrap/GCCBootstrap-build_log-v1.0.1-powerpc64le-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:9339ff8d0913c37b6218dd9ddc2809fa6bf3befc"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:94129a1147750726ead20623b65751a2422091f497025a1b216176912424f827"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v1.0.1-GCCBoostrap/GCCBootstrap-extract_log-v1.0.1-powerpc64le-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    name = "ar"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-ar"
+    [[builds.products]]
+    name = "as"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-as"
+    [[builds.products]]
+    name = "ld"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-ld"
+    [[builds.products]]
+    name = "nm"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-nm"
+    [[builds.products]]
+    name = "objcopy"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-objcopy"
+    [[builds.products]]
+    name = "objdump"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-objdump"
+    [[builds.products]]
+    name = "ranlib"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-ranlib"
+    [[builds.products]]
+    name = "readelf"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-readelf"
+    [[builds.products]]
+    name = "strings"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-strings"
+    [[builds.products]]
+    name = "binutils_strip"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-strip"
+    [[builds.products]]
+    name = "cc"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-cc"
+    [[builds.products]]
+    name = "gcc"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-gcc"
+    [[builds.products]]
+    name = "cpp"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-cpp"
+    [[builds.products]]
+    name = "gxx"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-g++"
+    [[builds.products]]
+    name = "gcc"
+    type = "executable"
+    path = "bin/powerpc64le-linux-gnu-gcc"
+
+    [[builds.sources]]
+    treehash = "sha1:a343d19b96bf8beffbe65b0e79af0f05b3d45b41"
+    url = "http://mirrors.kernel.org/gnu/gcc/gcc-9.4.0/gcc-9.4.0.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:72953b5d6cb3d19c4a5a61ea28d98f1aff3f95b5"
+    url = "https://mirrors.kernel.org/gnu/mpfr/mpfr-4.1.0.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b4c64266f805d57e5bdd29be5176068561a129d2"
+    url = "https://mirrors.kernel.org/gnu/mpc/mpc-1.2.1.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:c44caf29f0c03471636c31182c93219a6a401f9b"
+    url = "https://gcc.gnu.org/pub/gcc/infrastructure/isl-0.24.tar.bz2"
+    [[builds.sources]]
+    treehash = "sha1:7fddd9cb81504331d0a4c4335309cc3139651285"
+    url = "https://mirrors.kernel.org/gnu/gmp/gmp-6.2.1.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b3ebf8f2902314fef18c02872ca2e4791537b4c6"
+    url = "http://mirrors.kernel.org/pub/linux/kernel/v4.x/linux-4.1.49.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:1a1e061943a1d90ee93a107872d0c2459363af00"
+    url = "https://mirrors.kernel.org/gnu/glibc/glibc-2.17.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:3f9625da23e93e58273ff0a70e1886b69ef59149"
+    url = "https://mirrors.kernel.org/gnu/glibc/glibc-2.19.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:9b04f4fc4e433a892ea88ea0946a24b4dd62aab5"
+    url = "https://musl.libc.org/releases/musl-1.2.2.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:a14bf4e883fd391a9024a5ac95d26e1c2cf6896f"
+    url = "https://sourceforge.net/projects/mingw-w64/files/mingw-w64/mingw-w64-release/mingw-w64-v9.0.0.tar.bz2"
+    [[builds.sources]]
+    treehash = "sha1:4df1cf58fc97c06667a26b81a94314710378e36b"
+    url = "https://github.com/madler/zlib/archive/refs/tags/v1.2.12.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:c56d13ea81e7d05c6e156d30faa11a56bf0253c7"
+    url = "http://mirrors.kernel.org/gnu/ncurses/ncurses-6.2.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:e8509616bf01a9399edf16924ca83fbf2c9b89ef"
+    url = "http://mirrors.kernel.org/gnu/libiconv/libiconv-1.16.tar.gz"
+    [[builds.sources]]
+    treehash = "sha1:b1b4a65144718b239fce820744f2c18faef8768a"
+    url = "http://mirrors.kernel.org/gnu/gettext/gettext-0.21.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:71da3d4f918be291a3ad12b9596d3274d9faf55d"
+    url = "http://mirrors.kernel.org/gnu/binutils/binutils-2.29.1.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b53abfc3b024418e8fb0c21b0a19b2cb4f088029"
+    url = "http://mirrors.kernel.org/gnu/binutils/binutils-2.38.tar.xz"
+    [[builds.sources]]
+    treehash = "sha1:b66d485c7922635d450b49674dac396b67f899b4"
+    url = "/home/sabae/src/BB2/bootstrap/GCCBootstrap/bundled"
+
+    [builds.artifact]
+    treehash = "sha1:0ccce9d7ceab1017048a9d54544d4aba342f1f1a"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:a44c21b7941e2e8291e07fa7cf94b7fdeca7fba1d55737d3f79e28a1c17a366d"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v1.0.1-GCCBoostrap/GCCBootstrap-v1.0.1-powerpc64le-linux-gnu.tar.gz"
