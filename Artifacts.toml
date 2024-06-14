@@ -1,119 +1,265 @@
 [[GCCBootstrap]]
-arch = "aarch64"
-git-tree-sha1 = "1ab42191bb8c00577f33c1221894efe08189af90"
+arch = "x86_64"
+git-tree-sha1 = "fca1caa68e23d58d4f4e28ddcbfea87911fb80a1"
 libc = "glibc"
 os = "linux"
+target_arch = "x86_64"
+target_libc = "glibc"
+target_os = "linux"
 
     [[GCCBootstrap.download]]
-    sha256 = "b342c1c115c58027c8365416021d8ed45a7226d2ddce0397a7ea9cb36418699d"
-    url = "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v9.4.0+0/GCCBootstrap.v9.4.0.aarch64-linux-gnu.tar.gz"
-[[GCCBootstrap]]
-arch = "aarch64"
-git-tree-sha1 = "7d363b19136e5e72601259e59b9583dcdce4d41a"
-libc = "musl"
-os = "linux"
-
-    [[GCCBootstrap.download]]
-    sha256 = "911e5c5f9b96a6c76d67b8bc5cd89bf69aa3b45e587056ff6aec121d11310565"
-    url = "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v9.4.0+0/GCCBootstrap.v9.4.0.aarch64-linux-musl.tar.gz"
-[[GCCBootstrap]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "846e3b561d26684988d0ad129782f4496bdcd6af"
-libc = "glibc"
-os = "linux"
-
-    [[GCCBootstrap.download]]
-    sha256 = "f96bfab8f73591d83302ae73647da90761c930107e72c7839996a4161740c6e1"
-    url = "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v9.4.0+0/GCCBootstrap.v9.4.0.armv6l-linux-gnueabihf.tar.gz"
-[[GCCBootstrap]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "1bbd06a3c9ea8f7e10d9648fff8007203814a0b6"
-libc = "musl"
-os = "linux"
-
-    [[GCCBootstrap.download]]
-    sha256 = "7f4296aa72d1cb447273bac8b4f55192a46d6f54c079b51867ad8451e9441858"
-    url = "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v9.4.0+0/GCCBootstrap.v9.4.0.armv6l-linux-musleabihf.tar.gz"
-[[GCCBootstrap]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "3d058c2a89b1d137ce2b28f7ff858e0395311dae"
-libc = "glibc"
-os = "linux"
-
-    [[GCCBootstrap.download]]
-    sha256 = "dc4dd02dda4f172d01b204a1ccd6b181f9a4bebd27bec56a093d740f3e75a721"
-    url = "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v9.4.0+0/GCCBootstrap.v9.4.0.armv7l-linux-gnueabihf.tar.gz"
-[[GCCBootstrap]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "309ab7569f14fe68c7cc3057c2b6b8e41d18c80d"
-libc = "musl"
-os = "linux"
-
-    [[GCCBootstrap.download]]
-    sha256 = "567d071e446eb4061bef0500b78ea505409a0bd829f9febcce1f7b2be2b5608a"
-    url = "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v9.4.0+0/GCCBootstrap.v9.4.0.armv7l-linux-musleabihf.tar.gz"
-[[GCCBootstrap]]
-arch = "i686"
-git-tree-sha1 = "278d225c0534445456c14ee292c5aa5c10d7e5fb"
-libc = "glibc"
-os = "linux"
-
-    [[GCCBootstrap.download]]
-    sha256 = "73efdc6164d5d09fdc3b9b38e09506f9d2931de7f8b140b44128bd725262c83c"
-    url = "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v9.4.0+0/GCCBootstrap.v9.4.0.i686-linux-gnu.tar.gz"
-[[GCCBootstrap]]
-arch = "i686"
-git-tree-sha1 = "627c1d98b96e5657288ccfcbb9da545115ad843c"
-libc = "musl"
-os = "linux"
-
-    [[GCCBootstrap.download]]
-    sha256 = "f0888f7fcdf7731fdad6fb24ff6488e136355b3a07921f484f9f1e77a9cd446e"
-    url = "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v9.4.0+0/GCCBootstrap.v9.4.0.i686-linux-musl.tar.gz"
-[[GCCBootstrap]]
-arch = "i686"
-git-tree-sha1 = "69f1e15188fe9af1c1c200436a969ad98d743c04"
-os = "windows"
-
-    [[GCCBootstrap.download]]
-    sha256 = "7f13e1821ea26cdd887f75b41e56dfb621c365cdfc98195bc12ec851ea14a9d6"
-    url = "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v9.4.0+0/GCCBootstrap.v9.4.0.i686-w64-mingw32.tar.gz"
-[[GCCBootstrap]]
-arch = "powerpc64le"
-git-tree-sha1 = "11d9a4845b99a9d8d1981fe3be93a0528bb01459"
-libc = "glibc"
-os = "linux"
-
-    [[GCCBootstrap.download]]
-    sha256 = "ab1e549b37418892be10ccb7a8387e4492d2951b6dcc8b9a79c27c945efffca8"
-    url = "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v9.4.0+0/GCCBootstrap.v9.4.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "02bf0e108ccfcec33874dc68fb04997fd8a3e38879240d02ec35f884e79fd048"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-v9.4.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 [[GCCBootstrap]]
 arch = "x86_64"
-git-tree-sha1 = "b5718b9f2f1b7ed1243e3ddd5f969da55b0c5de8"
+git-tree-sha1 = "dc93e98f15bc6e9ec37cb68dadd744dcdc29e1b8"
 libc = "glibc"
 os = "linux"
+target_arch = "aarch64"
+target_libc = "glibc"
+target_os = "linux"
 
     [[GCCBootstrap.download]]
-    sha256 = "a919fd7e7a9ed8ccf12d333121dbc0155d2daaf1fa08fb91ce4f71fd38c7efd1"
-    url = "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v9.4.0+0/GCCBootstrap.v9.4.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "a272be460f127421ad0b4d6c98d5f8c17b914900e03812956cd9ae5073b7e247"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-v9.4.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
 [[GCCBootstrap]]
 arch = "x86_64"
-git-tree-sha1 = "9f20df348e36507ce6027df525809ba78806d3f9"
-libc = "musl"
+git-tree-sha1 = "0de57969246c29de77935aeb5a7bae7b8f612d9c"
+libc = "glibc"
 os = "linux"
+target_arch = "i686"
+target_os = "windows"
 
     [[GCCBootstrap.download]]
-    sha256 = "2a54be3b9a59e26b576983a4e31e3aab9bdc8d82494295cf3603f493f650303f"
-    url = "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v9.4.0+0/GCCBootstrap.v9.4.0.x86_64-linux-musl.tar.gz"
+    sha256 = "1b9431f7388c8c5a2ff6a6fc1da746035ee7e2c63eda287f899a9240c1040f25"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-v9.4.1-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
 [[GCCBootstrap]]
 arch = "x86_64"
-git-tree-sha1 = "fd26ab0220d4897f6c5eb518a8dafb332403a682"
-os = "windows"
+git-tree-sha1 = "d5a23d34a68a5ae8ff89c5258ed347fa1b918bd1"
+libc = "glibc"
+os = "linux"
+target_arch = "powerpc64le"
+target_libc = "glibc"
+target_os = "linux"
 
     [[GCCBootstrap.download]]
-    sha256 = "056f313c0b53eb409151333277e060b40e4928b46e72c216dbe47d3269cc3982"
-    url = "https://github.com/JuliaBinaryWrappers/GCCBootstrap_jll.jl/releases/download/GCCBootstrap-v9.4.0+0/GCCBootstrap.v9.4.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "eb39621477b3e36640cc211aa93b0854ea3f46087c548d6b60b1bfa7931dd717"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-v9.4.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+[[GCCBootstrap]]
+arch = "x86_64"
+git-tree-sha1 = "3a11a4730af5ba0d10317f952f9c3d7de1396dd3"
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_os = "windows"
+
+    [[GCCBootstrap.download]]
+    sha256 = "b779c5c678bb72cf223fdc5746f00f5ac2162c5389e8722ee5bca1b1f145a1c2"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-v9.4.1-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+[[GCCBootstrap]]
+arch = "x86_64"
+git-tree-sha1 = "d3099aeca0e76c74b593f564bf80cb9ebd1fbe71"
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCCBootstrap.download]]
+    sha256 = "facb838fa0c1bf5dc4fbe1c8574264d7218319bd09cc017636c43c0e9f949921"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-v9.4.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+[[GCCBootstrap]]
+arch = "x86_64"
+git-tree-sha1 = "e3fd9b60718106e7639de4cd009a2b4f5257c93a"
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCCBootstrap.download]]
+    sha256 = "a8b80befa54aed97ccb580ea898c311971cd92c5925242f2d49696c190dfcd48"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-v9.4.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+
+[[GCCBootstrap-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "e0a8b6222b39e845f7c667c9a627bf384f6f0d41"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCCBootstrap-build_log.download]]
+    sha256 = "043360c021e3d27c63841a561c29cc0e22a78f90f386f6d6b135931c1c429127"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-build_log-v9.4.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+[[GCCBootstrap-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "94637474c6264278f31f27845bf5b8d14cf438d2"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "aarch64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCCBootstrap-build_log.download]]
+    sha256 = "dbfbee1f44d1b7e1821fe33761f4697f5efc5030671c55cf16e5bc94b3c32f8d"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-build_log-v9.4.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+[[GCCBootstrap-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "f8c149adb44289b586d7895b2a19a0ba239bcd7b"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_os = "windows"
+
+    [[GCCBootstrap-build_log.download]]
+    sha256 = "846138556e6e9b3af05ef18c5cdf4cf4feeea321978101ab92c790798e8afc70"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-build_log-v9.4.1-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+[[GCCBootstrap-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "6132d6db2cc01854962e1515a61efb4175cef23e"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "powerpc64le"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCCBootstrap-build_log.download]]
+    sha256 = "05703cd05d1a2722703ed00253515b0384b02d73f8c0c6457703bc935e3135aa"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-build_log-v9.4.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+[[GCCBootstrap-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "bcd356d98e836d7daddd23fa5bb1740e8cc18c1b"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_os = "windows"
+
+    [[GCCBootstrap-build_log.download]]
+    sha256 = "18166c4137f0fff0f52762386b5982e6c1b95173fdae719afbb5914961c171e7"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-build_log-v9.4.1-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+[[GCCBootstrap-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "d3d7da96b3e2bef3d33d6a9e7743702a4183b204"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCCBootstrap-build_log.download]]
+    sha256 = "14624917710607a5494731fed2371206d2510f9876321d274908a4df66f64ae0"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-build_log-v9.4.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+[[GCCBootstrap-build_log]]
+arch = "x86_64"
+git-tree-sha1 = "20102e4023839bd71055c4bcab3e83af104d6274"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCCBootstrap-build_log.download]]
+    sha256 = "65b8b243a90798b9dfe571ebc245f1fdd8325648a01e867a35fcd94359f3eeca"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-build_log-v9.4.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+
+[[GCCBootstrap-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "f9de8837fac47f5a67d7671a935905566a71e121"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCCBootstrap-extract_log.download]]
+    sha256 = "bec5b6720721ad7814d27b87bdb05f9c14ef3740902505877b0c2a4cd9af2a9d"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v9.4.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+[[GCCBootstrap-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "bf65479bbcda0d5e3e131e2950c74d00806dd3be"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "aarch64"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCCBootstrap-extract_log.download]]
+    sha256 = "ef397bbe9f8bb864445a8df7c374b755d38c64488ec19b680d9851211cdaa6b2"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v9.4.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+[[GCCBootstrap-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "0a2d2728a6497a6bc7d765e6f40740428afca893"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_os = "windows"
+
+    [[GCCBootstrap-extract_log.download]]
+    sha256 = "81a85b4fb4ed6c02b47e2141c8b482aafee8ffc00b6bac65203280db61f7d94c"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v9.4.1-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+[[GCCBootstrap-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "f55d28538aae93683d432261a02fbb50db5a98c0"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "powerpc64le"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCCBootstrap-extract_log.download]]
+    sha256 = "341855898f5f88718f48ef993072755a5e0f40af114153783237862ceee94aeb"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v9.4.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+[[GCCBootstrap-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "a402ec33cd65a64156ef5a1a02f715d227728a09"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "x86_64"
+target_os = "windows"
+
+    [[GCCBootstrap-extract_log.download]]
+    sha256 = "945160221748c69903513bfbc2d5a0df93d52de3d59ff25ab72f8613680d1f72"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v9.4.1-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+[[GCCBootstrap-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "43fb8334ad3cf2f787dd3787f921f74aec0a30fa"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "i686"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCCBootstrap-extract_log.download]]
+    sha256 = "09986667aef322a9f4665310c826072d9b4853501e0215d1f8e9148d381dd9b3"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v9.4.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+[[GCCBootstrap-extract_log]]
+arch = "x86_64"
+git-tree-sha1 = "bb8cfa83d8ae953ea55bf29c19648667a68a141f"
+lazy = true
+libc = "glibc"
+os = "linux"
+target_arch = "armv7l"
+target_call_abi = "eabihf"
+target_libc = "glibc"
+target_os = "linux"
+
+    [[GCCBootstrap-extract_log.download]]
+    sha256 = "9b2312a9b719c20f69fadaab1fb2b45c0706ac32218d9dc56312c0ba2bf734ba"
+    url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v9.4.1-GCCBoostrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v9.4.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
