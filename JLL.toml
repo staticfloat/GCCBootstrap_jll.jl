@@ -1,5 +1,5 @@
 name = "GCCBootstrap"
-version = "14.2.1"
+version = "14.2.0"
 julia_compat = "1.6"
 platform_augmentation_code = ""
 
@@ -56,18 +56,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:7d6460a2a7e16ba5def65eefbd000cec396f5c47"
+    treehash = "sha1:c0580c0b460cdc30fd4d8f47a60753dce12b6fc8"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:2282a6f59405e68d1a6d09ec4c3bbf7ba309b66c5209f5a881cf91019c34050a"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:834e1f5639fe89a5144a5539e11ad41cee8d15e6ed01cbf92959e1aae5dff1a2"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:99c82b16f64168d44888452d4e98406d5f611345"
+    treehash = "sha1:6c82f8d76aac95394a181ea2a24f78a40c46cd1f"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:f03d10dce81f0f067e7252721dcc5f23573cc15b8095f5b5ac63dd1b52f6c2e0"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:f6a31923b306025021bdc138f635c7829a2a6f0fe65eba8080490c3e9aaad95e"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -186,11 +186,11 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCCBootstrap/bundled"
 
     [builds.artifact]
-    treehash = "sha1:ebf21536e574cfe725269e5deec28d3c9c86a8fa"
+    treehash = "sha1:20b7c48cb7be7baae0b5e7ff2469b93e7cf461ad"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:1d9bdc0650d3d29241d34347c2b80fea625bcb1a919bd241b6f2e917b9f7923e"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:39ae53fe26cde4f7a3291df4272e125d90637d058d0a7139d482365daa994d37"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "GCCBootstrap"
 platform = "x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686"
@@ -244,18 +244,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:9af2d5e4e03aa2ea45e06fed167785e96e9a200c"
+    treehash = "sha1:845b26ac6de6725966222d151a8a9c7e38c91bb1"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:7935cfe5b75237a73c16c14703f1e2f1fb03c8a67ad46ed61c17e6c7240043cf"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+        tarball_hash = "sha256:b2210e010024172e41ade8566e9ff24e5fe25e659c9c3e6232886e3374dd0405"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:ebcaf8df2f5d48918fdae81b92019e3db1f2cc1d"
+    treehash = "sha1:ee17675c519066978f1d05cb0168ae075ff4b9c6"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:c472828357e0810d2119749dc20f3b0bbb22eb0ab7a6c0f36776d4420f28b367"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+        tarball_hash = "sha256:d64bcd43a2d284170b568b0b9c1bdca9dea8df884d373150a5fc390e9a935719"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -374,11 +374,11 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCCBootstrap/bundled"
 
     [builds.artifact]
-    treehash = "sha1:e387a385311c02815bff9b105dad1effb5f0232a"
+    treehash = "sha1:882994b28b3f1921e5b2415ec1322c34f346887c"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:ffcdee058811e45fbff6816bb59fa2763bea4565944c53f2ff87a1b767ad3e9d"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
+        tarball_hash = "sha256:9e9d545a13276020e9f1d3675a56f232bcff15f075360726980cd0883ff0f472"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+i686.tar.gz"
 [[builds]]
 name = "GCCBootstrap"
 platform = "x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64"
@@ -432,18 +432,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:ac82ec41ce8780e7ad693f6a1c3c92771e59e853"
+    treehash = "sha1:63e440de8ad799b8b0db7d02b511cb08e083f2b5"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:649646a13f4c6e8a7754d59574d79d2c8d42e814b62723001506b9d87830c679"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+        tarball_hash = "sha256:5211aa2d652cf99d10afa471a3c7bfe9b7ce62f88023807ceb3b750055713318"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:3ffab21960f9f98eeaf30ee8d2761c6823002eae"
+    treehash = "sha1:10558eeda7366ac4228afc1c470d96c00f9c458a"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:8969bb256e720255bf53624681857e415722912580e61bde572bbca7305baf6a"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+        tarball_hash = "sha256:97f075971e5171c49ff54164ece74d8d34379b00a6daa309ca81ab16ef0b0af8"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -562,11 +562,11 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCCBootstrap/bundled"
 
     [builds.artifact]
-    treehash = "sha1:f394818087ae4df44cb9dde5cdb908e8dd212ccf"
+    treehash = "sha1:eef9bf9b7684406bce1c5c662912adac07fbdd91"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:a6229794420c6d7d280f2a79bbaf728a96543b1c8ff1d772caba1c4a37f8c66b"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
+        tarball_hash = "sha256:9500209e056734f1518f3af79cfac6db3fdaa0df85627667183bdf661070778a"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+aarch64.tar.gz"
 [[builds]]
 name = "GCCBootstrap"
 platform = "x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l"
@@ -620,18 +620,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:63d9cac80d9a6d5dc0c637758fdaf3c745ad9564"
+    treehash = "sha1:85cdb0a05fbd676faa7f498e27aeafbd0e6f9ac9"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:b145ec82038c9d872ead0869c30b41445ab96e07f5b75afd42c49d1490960214"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+        tarball_hash = "sha256:969ebcc93665d485cc939f63ba9d2032e19ea1b1c4f036d1ad0a509a6c21098d"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:102cbba50e7cea5cbb7ac6822d4542fbcaad5708"
+    treehash = "sha1:d6ecfdc7a6182d68cb721f17b519e25f6cd36312"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:ce85d61f4bc4f039ea7f179586b64ab9950102c7f5926a29bcec68fcc6834fa7"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+        tarball_hash = "sha256:1de633f7169cf2f1ef1c1cb8317088a1a9d6682aa784876d84888b782874a55b"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -750,11 +750,11 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCCBootstrap/bundled"
 
     [builds.artifact]
-    treehash = "sha1:64ff94128a17bfbae9b4dc95524fb94156167e0f"
+    treehash = "sha1:fe6475134baae5b11525dd3914b12aefb2c3df8b"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:c6f5dc6395ca39d9a468556248f4092b88750be72701225e16a95635a844992d"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+        tarball_hash = "sha256:6e3cd1674fe133bf07b4d6582a93981b95a77c9ec5ddb8021a68c5ca69bfdd66"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 [[builds]]
 name = "GCCBootstrap"
 platform = "x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l"
@@ -808,18 +808,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:52fd79b950729716c0d7c9b83d6467ab1ee8a33e"
+    treehash = "sha1:e94e4da67724f841d7659a218c35200ed20c1977"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:1a0f9bf2ee369827356392fbadf5f5f27ac79697b47122cd3e19aebbdab7448d"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+        tarball_hash = "sha256:39823edf5ba86455e76cbb0eccf9773c465bd582e1409b36fcbb8a9e3c27144e"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:32582b6ec942b459d552449a60725314408eb397"
+    treehash = "sha1:745808fc2924de10cfd64dccc7a89aaee8886c35"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:92d7dfab559a7f57b1d880a122f1056320f11714dde5c79a01e6e9ce344d39f7"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+        tarball_hash = "sha256:b8f716c38cbd9835de03a9b467a153f60f4f4ac49403e8458c4c8a460a15683f"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -938,11 +938,11 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCCBootstrap/bundled"
 
     [builds.artifact]
-    treehash = "sha1:4d12378d2c6244d9b0f8753cb027f0926d244f19"
+    treehash = "sha1:fb3ee8b8af2314618a7cff5217ff52973b04e512"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:b115637d3cce4a0efa6119c3cb0aa1c6cf0c697a28bc2506553408bf6e4e7429"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+        tarball_hash = "sha256:12a686e1a34b358058b031771b6ed8b392be548f4787414756ba384e594bbbd4"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 [[builds]]
 name = "GCCBootstrap"
 platform = "x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le"
@@ -996,18 +996,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:2c0283e9852056d9737f0b76838c4cb5312437bd"
+    treehash = "sha1:139d70be94ef5ddad3e59560ea840d02bbd1e5fa"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:d950cfef5bdbfcf5c37cbcde30445eb6e2614d873167efe7d5fa5aae1b8383ae"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+        tarball_hash = "sha256:54fdfe54e6a9329accec758b5ee6a92df03ecefeb60f3b986313fc31599cac49"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:4d028f27da26de5acbcbe8436b0241052a44f5fd"
+    treehash = "sha1:ebe646a7aec35b335422a0dd9aeff14ec69e2286"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:22452bef8acd2274b160b5de31649c0ae8f218d8c1bffad4db91f83b0e62bbc1"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+        tarball_hash = "sha256:e415e2050b2a291576d28ca5cc179eb7bdfd278422ee8d1239d3b580ea87dc2d"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -1126,11 +1126,11 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCCBootstrap/bundled"
 
     [builds.artifact]
-    treehash = "sha1:35f40f53efb887add4f13bbe1a435b2ded65bce5"
+    treehash = "sha1:20ab27b966aaa391dd58f2a03277c89cb1765eff"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:4b605d704acfc441bd879e3cfed35a37790d418b3e183b09e4097b5e0c89df6b"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.1-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
+        tarball_hash = "sha256:0ac9610d17e68d7975b23938fb0a720768e086436b8c65046d577f4f8619a1ac"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.0-x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+powerpc64le.tar.gz"
 [[builds]]
 name = "GCCBootstrap"
 platform = "x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64"
@@ -1175,18 +1175,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:fb1647f0c4e09b8dcffccd74d9377fc091b82623"
+    treehash = "sha1:b2d71b784ac95a3d05e27beb535ab53b4faec2c8"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:2629b2409c82e7cf79b8359bd3ce1f4d8c71280f675072a09c7823fbe077c4ad"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:2f3eba8da5d1698923f20dfee75dba9106ddbef9e800624b6a6fcf92ea8101fd"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:f3670ae34338a1c908729dd3b9dee187792bf2a2"
+    treehash = "sha1:fba39128f6e51e6db68bbcca1466c61c3b0858e0"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:c5d5a6e931716d3b2af15c3b0854359a4491a67fc9ce7bdb8f43e1d82b191284"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:86facb8dc852abcdda1294fc4dd79f3a71f3a3e0e8c1c86bf74b384e7f95157d"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -1305,11 +1305,11 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCCBootstrap/bundled"
 
     [builds.artifact]
-    treehash = "sha1:60fd1f7483d48fd18fbf81e7e67d1f8e26333722"
+    treehash = "sha1:56f3cde6743f59122ca84ccd4934b19cf28e0c31"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:147339d2bdbf2e2d5d5327baae5b838afe0d8f28df03d2ac025a7517e42bf398"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:545d7ff202081f25bfc1ed49ef7d00f8ac43ff11f5f5bdaa795e0be95489e891"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "GCCBootstrap"
 platform = "x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686"
@@ -1354,18 +1354,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:4d2fe58f1281faad9535059c5a17e8fec9b988bc"
+    treehash = "sha1:d2a7b735604de9254987e48efefc5de0eaaf598f"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:bcbb197f9f52f28942c15951bb2cd6826f719ded1f3a1ccdf9c977265b32bf19"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
+        tarball_hash = "sha256:04efc98b5942380975df097e111a42a85adcebf99f2b3f3e4a290a3b37b56917"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:9ef9161024fcdcfc915bfa7267da14a8bb6eef2c"
+    treehash = "sha1:b508a4c3fdc40fc8d649b28830d041be2c398f37"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:7849b73d1b7a4ed9cc0ec93aa250cbda02575363d23710890ba6e74f9819b13b"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
+        tarball_hash = "sha256:b4af6f9572c7f27b9d37cfa57d4063c5f0f718f97538d7a8aef48838f565b6da"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -1484,11 +1484,11 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCCBootstrap/bundled"
 
     [builds.artifact]
-    treehash = "sha1:eef8ae09cf356efcec9aa9bf25fbd9ea5da15e70"
+    treehash = "sha1:4dc4d701951ddc18246cae8bc072221d6ed6bace"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:b2a7a824008849e21eb8c881202a21c86a3b367940bacc751aef220940156730"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
+        tarball_hash = "sha256:7ebc9b19b886dca4182a92b77e377154295c42335cd7818bb139c3a376d7317a"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+i686.tar.gz"
 [[builds]]
 name = "GCCBootstrap"
 platform = "x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64"
@@ -1533,18 +1533,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:f7fc5b041e3bc3c3adb6ec892a2983338f2d1955"
+    treehash = "sha1:76a1f50cb15c93aa300af51eeef46c876d79367d"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:4a22c44faeb595bc9516fd8e7ca5fe43b87c9de483432531bf8f8e907e21f0fd"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
+        tarball_hash = "sha256:57fe7dcb1caa4a2dd457971ddf6ef8003dda07bb8b2ba7ea1c83c6f3ec52ffb9"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:d567eb0fd02b2f419744f727e24f032eb49ee3e3"
+    treehash = "sha1:de691184a0410cad8a01f4c9b845083ee5297f37"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:39662ba6bb490a53e5c2ca904785feb92a380f6f3bdec6d167b74126bf540207"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
+        tarball_hash = "sha256:6fce012bc8dd9d77948aec3a7b2f47f86ddda03b7f387f59c02db35c2c5b625f"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -1663,11 +1663,11 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCCBootstrap/bundled"
 
     [builds.artifact]
-    treehash = "sha1:50806c42b8def554d56423d83daa5bf6c1c39a2f"
+    treehash = "sha1:da34cf68154ff7fa541bafae47581f50be3b4ce5"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:4b0680717fb99688d963edf6686f3027ef8b889b3d7961d6eb198a4a158c8fa3"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
+        tarball_hash = "sha256:cf5038b89941b6315b547ebc085a3f1aa3d80680e9a01e3f708de8eb9feb1c07"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_arch+aarch64.tar.gz"
 [[builds]]
 name = "GCCBootstrap"
 platform = "x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l"
@@ -1712,18 +1712,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:953cbdc2da1096c46dd046958634e3cb67d733c6"
+    treehash = "sha1:c4c0d19e6af275266d76fe78567ed4082fa21a22"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:d5509d92e7623e1ab0bd2b2741a95e22dec87cb72b881f1e35c9e1b7d92543fc"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+        tarball_hash = "sha256:493fca9045cb1e04a928d897a7708557074acf759c9becaf277a770997ee5b95"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:32a9166169a4608e4727f97f5edf2ab509c2d490"
+    treehash = "sha1:cff15431a961156bd752aeb5f5322bc4163ad0b4"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:b2db70af2dd8cb8d8293318a90757e8c4e216a5548e147f63ce47d87d2647736"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+        tarball_hash = "sha256:c2826089250b7865383b2d7f87c95f38b740d54e8b082a0856c1b74a6692472c"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -1842,11 +1842,11 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCCBootstrap/bundled"
 
     [builds.artifact]
-    treehash = "sha1:45c33614d4bc0849e56cdfe583d5fc84bcc9c0e6"
+    treehash = "sha1:111a6f9d4f7dbf849a7ccf83ff6e2fabef3f0e3f"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:78e418a5c6fa57e7c7e074186f13400976c70946024a2263e2a8ea2f452f6546"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
+        tarball_hash = "sha256:9bcdb8c4230c7a81b828b4ee017f6d0a889da90e005e4db73797ca66bcdf0fd9"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv6l.tar.gz"
 [[builds]]
 name = "GCCBootstrap"
 platform = "x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l"
@@ -1891,18 +1891,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:7d50c305d9eb1c7e36e6b571d0200af46753c3fb"
+    treehash = "sha1:e1c2189a8112fdacf1648c9816080540724432de"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:513fa5b24298079b87e917ee251f360c868f641c3c95632f8469ffc1ec716d30"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+        tarball_hash = "sha256:91a595204264320a14646d9ea96df948734c6fee5773f9796d333ddc414f5562"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:7be1533d76d325a0cca3a5ed8f11e818ea97558b"
+    treehash = "sha1:c413fbb077c4625ef7c69fcf93783f4252c6f57f"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:57e8823498c81e0b5549cc0fe2763bbc8b04a2cc1cd376555db1a96cd3bd5d08"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+        tarball_hash = "sha256:8dd823c7e0966184acfb692d27604a231a5911ae8723ce964b021be995d05e80"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -2021,11 +2021,11 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCCBootstrap/bundled"
 
     [builds.artifact]
-    treehash = "sha1:8ea2b3ae470a1ecbf3b4bac0e54a971324b4e9b0"
+    treehash = "sha1:44c399a2059c7d1bbb102f90b51260dd437db331"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:107fa26f5ad1f3d59cd28eb99d1e17c115cb9e613eda6fb2d909b7c18fa84c9f"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.1-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
+        tarball_hash = "sha256:74a2fd4221216bd51461306e4d5d479f91370254ed0f0b0ae2ab2a4b0eb602c3"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.0-x86_64-linux-gnu-target_libc+musl-target_os+linux-target_call_abi+eabihf-target_arch+armv7l.tar.gz"
 [[builds]]
 name = "GCCBootstrap"
 platform = "x86_64-linux-gnu-target_os+windows-target_arch+x86_64"
@@ -2067,18 +2067,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:6d03972c406b28755d8305f4cb0a05c94d006ccc"
+    treehash = "sha1:089b6a47d37dc4ba0d1cc10a9e61c4c11c38a883"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:bbd2d3e9cc80f61dc4ad0873a7eddcbf789db12efaf1029f440ab65081ac3a96"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.1-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:28eb61b26338d1dde09453cc2628f54a85ece5ef87c1ec20d4e080e509b397ff"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.0-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:1b57641c1d4bcba75e6887e4190963191d863a4d"
+    treehash = "sha1:4bcbc251f1956c49972c7c3afa136ddbf4aac967"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:9a924386220c0f9d32b91fc2ffa81d3169b1b75ea130e364862dfa1d199e2bf1"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.1-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:0ab75c28844a6dc261e39637a419b47b3396d0a21371abf70e0984badaafbcdf"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.0-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -2197,11 +2197,11 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCCBootstrap/bundled"
 
     [builds.artifact]
-    treehash = "sha1:ef25b3ead91fc96c434ca654e5c10eeb4e40e8b0"
+    treehash = "sha1:fad07bcff15421ffcb0fd9d1b7d9ae0cc086d31c"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:afbe6fcaa67109bbf5848be0e8d83f46fe83f2b714210c943666f8acf0afaf42"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.1-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
+        tarball_hash = "sha256:d4bdf4f9918ccbdedf476b94b12d6185d1e4036167f2cbb4efe5d9428a939f8b"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.0-x86_64-linux-gnu-target_os+windows-target_arch+x86_64.tar.gz"
 [[builds]]
 name = "GCCBootstrap"
 platform = "x86_64-linux-gnu-target_os+windows-target_arch+i686"
@@ -2243,18 +2243,18 @@ src_version = "14.2.0"
     [builds.callback_defs]
 
     [builds.auxilliary_artifacts.build_log]
-    treehash = "sha1:da2f8e0edaf2ef865fb11fcf41f7eb91b940916e"
+    treehash = "sha1:37492070e610781ec28374bac058ebf10db5fc41"
 
         [[builds.auxilliary_artifacts.build_log.download_sources]]
-        tarball_hash = "sha256:10a7a33e0b4ab336e281b97ec6c86ad899d3ab9e9815919260549db928656526"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.1-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+        tarball_hash = "sha256:98504c1a27a3434bdb73e9932b9df3398833b04c87437d74fd8c80a47fab6378"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-build_log-v14.2.0-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
 
     [builds.auxilliary_artifacts.extract_log]
-    treehash = "sha1:3755166cd3a112e3eb8dc5e5c39b361ea73455b5"
+    treehash = "sha1:ce62e371cbcff77b189ac173165dba5ff7cb41c9"
 
         [[builds.auxilliary_artifacts.extract_log.download_sources]]
-        tarball_hash = "sha256:456cf56dddf8ac96fa5d5bd6312dfb117fc311114ab152131823795999a3fbff"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.1-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+        tarball_hash = "sha256:2ca0edb2912dc8da02ca5b497afe971d1bd30e02317b54058c7f41b137646faa"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-extract_log-v14.2.0-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
 
     [[builds.products]]
     name = "ar"
@@ -2373,8 +2373,8 @@ src_version = "14.2.0"
     url = "/home/sabae/src/BB2/bootstrap/GCCBootstrap/bundled"
 
     [builds.artifact]
-    treehash = "sha1:ef915e79a4ca0204b42d75ab27149b2c93d72d47"
+    treehash = "sha1:c182f111a24aa4eef3b57268cf0d63494bbee98b"
 
         [[builds.artifact.download_sources]]
-        tarball_hash = "sha256:cb66b48d22287aeae9882885f19aed3a74ff400a85a1ec63b6080943c74fa997"
-        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.1-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.1-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
+        tarball_hash = "sha256:3fa27b62128f01b932909f0a9c49b286ec002f00716b6f50ebc7e35a126f6ac8"
+        url = "https://github.com/staticfloat/GCCBootstrap_jll.jl/releases/download/v14.2.0-GCCBootstrap-x86_64-linux-gnu/GCCBootstrap-v14.2.0-x86_64-linux-gnu-target_os+windows-target_arch+i686.tar.gz"
