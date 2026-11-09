@@ -9,4 +9,4 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [compat]
 julia = "1.6"
-LazyJLLWrappers = "1.0.0"
+LazyJLLWrappers = "1.2.2"
