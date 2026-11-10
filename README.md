@@ -12,7 +12,6 @@ The binaries for `GCCBootstrap` have been built from upstream sources version v1
  - [https://mirrors.kernel.org/gnu/mpc/mpc-1.3.1.tar.gz](https://mirrors.kernel.org/gnu/mpc/mpc-1.3.1.tar.gz) (treehash: sha1:afd933ab8b5246004dc0767bcd3d51333d5ca720)
  - [https://libisl.sourceforge.io/isl-0.26.tar.xz](https://libisl.sourceforge.io/isl-0.26.tar.xz) (treehash: sha1:e37d9585caf6bcded5e741442fdb1fa5b0b2c9bd)
  - [https://mirrors.kernel.org/gnu/gmp/gmp-6.3.0.tar.xz](https://mirrors.kernel.org/gnu/gmp/gmp-6.3.0.tar.xz) (treehash: sha1:eed1334cca024677702c3a4de194758cb1b15c36)
- - [http://mirrors.kernel.org/pub/linux/kernel/v4.x/linux-4.1.49.tar.xz](http://mirrors.kernel.org/pub/linux/kernel/v4.x/linux-4.1.49.tar.xz) (treehash: sha1:b3ebf8f2902314fef18c02872ca2e4791537b4c6)
  - [http://mirrors.kernel.org/pub/linux/kernel/v5.x/linux-5.4.289.tar.xz](http://mirrors.kernel.org/pub/linux/kernel/v5.x/linux-5.4.289.tar.xz) (treehash: sha1:ea29a9bd2b861c05eb2b28b3ef785373686a0dd5)
  - [https://mirrors.kernel.org/gnu/glibc/glibc-2.35.tar.xz](https://mirrors.kernel.org/gnu/glibc/glibc-2.35.tar.xz) (treehash: sha1:9e7dee93c248113d37d533ab7dc62acda7d82012)
  - [https://mirrors.kernel.org/gnu/glibc/glibc-2.17.tar.xz](https://mirrors.kernel.org/gnu/glibc/glibc-2.17.tar.xz) (treehash: sha1:1a1e061943a1d90ee93a107872d0c2459363af00)
@@ -26,7 +25,7 @@ The binaries for `GCCBootstrap` have been built from upstream sources version v1
  - [http://mirrors.kernel.org/gnu/gettext/gettext-0.23.1.tar.xz](http://mirrors.kernel.org/gnu/gettext/gettext-0.23.1.tar.xz) (treehash: sha1:8725eb37829f0219ecbf3707f02053bdea7d98fd)
  - [http://mirrors.kernel.org/gnu/binutils/binutils-2.29.1.tar.xz](http://mirrors.kernel.org/gnu/binutils/binutils-2.29.1.tar.xz) (treehash: sha1:71da3d4f918be291a3ad12b9596d3274d9faf55d)
  - [http://mirrors.kernel.org/gnu/binutils/binutils-2.43.1.tar.xz](http://mirrors.kernel.org/gnu/binutils/binutils-2.43.1.tar.xz) (treehash: sha1:a17278773eb61f1f17466b7dc85ec940019f0754)
- - [/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/GCCBootstrap/bundled](/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/GCCBootstrap/bundled) (treehash: sha1:d4d44fa30f5f1d264bbea34e7d0779bc656321d3)
+ - [/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/GCCBootstrap/bundled](/home/sabae/src/experiments/BB2-compiler-toolchains-transfer/worktrees/BinaryBuilder2.jl-riscv/bootstrap/GCCBootstrap/bundled) (treehash: sha1:bd1758d898d8b209131bc95b10a71b007fa1804c)
 # Platforms
 
 `GCCBootstrap` is available for the following platforms:
